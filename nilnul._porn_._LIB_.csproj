@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>nilnul.porn</RootNamespace>
+    <AssemblyName>nilnul._porn_._LIB_</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="nilnul0\porn\**" />
+    <EmbeddedResource Remove="nilnul0\porn\**" />
+    <None Remove="nilnul0\porn\**" />
+  </ItemGroup>
+
+</Project>
